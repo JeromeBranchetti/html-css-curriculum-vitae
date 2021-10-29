@@ -1,6 +1,8 @@
 /* la larghezza omogenea della pagina */
-* {
-
+header, main, footer {
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
 
 /*il colore giallo dei titoli h2*/
@@ -12,13 +14,20 @@ h2 {
 /*il font dei titoli h3 */
 
 h3 {
-    font-style: italic;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*font footer*/
+
+footer {
+    font-size: 10px;
 }
 
 /*il rettangolo di sfondo grigio*/
 
 header {
-    background-color: lightgray;
+    background-color: rgba(0, 0, 0, 0.050);
 }
 
 /*l'immagine, h1, footer sono centrati*/
@@ -29,6 +38,17 @@ footer, h1 {
 /*stile immagine profilo*/
 
 img {
-    width: 150px;
-    ;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* colore e spessore righe orizzontali */
+
+hr {
+
+    border: 0;
+    height: 1px;
+    background: rgb(207, 161, 8);
 }
