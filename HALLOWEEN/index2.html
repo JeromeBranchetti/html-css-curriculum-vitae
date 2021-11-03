@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style2.css">
 </head>
-<body>
+<body class="body_2">
     
     <header>
         <h1>ISCRIZIONE</h1>    
@@ -24,7 +24,9 @@
             <br>
             <label for="numero">Numero telefono</label>
             <br>
-            <input type="number" required placeholder="numero telefono" id="numero">
+            <input type="tel" required placeholder="numero telefono" id="numero" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}" minlength="13" maxlength="13">
+            <br>
+            <small>esempio 333-44-55-666</small>
             <br>
             <label for="indirizzo">Orario arrivo</label>
             <br>
@@ -32,7 +34,7 @@
             <br>
             <label for="num_p">Numero partecipanti</label>
             <br>
-            <input type="number" name="numero-persone" placeholder="numero persone" id="num_p">>
+            <input type="number" name="numero-persone" placeholder="numero persone" id="num_p" maxlength="2">
             <br>
             <label for="social">Come hai saputo dell'evento</label>
             
