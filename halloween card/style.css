@@ -30,8 +30,8 @@
 .contenitore-zucche {
     position: absolute;
     bottom: 0;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 .contenitore-zucche:hover #zucca-2{
     display: none;
@@ -86,3 +86,11 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.informazioni {
+    width: 40%;
+    position: absolute;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+} 
