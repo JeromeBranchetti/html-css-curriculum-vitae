@@ -1,0 +1,19 @@
+.orange {
+    background-color: orange;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.titolo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10px;
+    font-size: 50px;
+    
+    
+}
