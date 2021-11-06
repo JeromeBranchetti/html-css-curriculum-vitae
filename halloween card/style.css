@@ -5,6 +5,31 @@
     position: relative;
 }
 
+.zucca {
+    position: absolute;
+    height: 200px;
+    
+    
+}
+
+#zucca-1 {
+    bottom: 0;
+    left: 0;
+}
+
+#zucca-2 {
+    right: 0;
+}
+
+.castello {
+    position: absolute;
+    height: 70%;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+
+}
+
 .titolo {
     display: flex;
     flex-direction: column;
@@ -14,6 +39,7 @@
     transform: translate(-50%);
     margin-top: 10px;
     font-size: 50px;
+    
     
     
 }
